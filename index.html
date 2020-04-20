@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CDN for Glyphicons. A CDN is a service that accelerates internet content delivery -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>USA Weather Program</title>
+</head>
+<body>
+    
+    <div class="card mt-5 mx-auto d-block" style="width: 20rem;">
+        <img src="https://yeadonborough.org/wp-content/uploads/2018/03/Weather-Alert-200x200.png" class="mx-auto d-block mt-5" width="150px" height="150px" alt="weather image" />
+        <div class="card-body rounded mx-auto">
+            <br>
+            <input type="text" id="zipcode" name="zipcode" class="mx-auto d-block">
+            <br>
+            <button class="button mx-auto d-block">Enter USA Zipcode</button>
+            <br>
+            <p class="pageWeather card-text">Weather: N/A</p>
+            <p class="pageTime card-text">Current Time: N/A</p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment-timezone-with-data-10-year-range.min.js"></script>
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="zipWeather.js"></script>
+
+</body>
+</html>
